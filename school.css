@@ -1,0 +1,449 @@
+*
+{
+    font-family: Microsoft YaHei UI;
+
+    margin: 0;
+    padding: 0;
+}
+
+/*顶部样式*/
+.header
+{
+    position: absolute;
+    z-index: 60;
+
+    width: 100%;
+    height: 60px;
+
+    background-color: #07cbc9;
+}
+
+.header .logo
+{
+    position: relative;
+
+    float: left;
+
+    margin: 5px 10px 5px 60px;
+}
+
+.header .introduce ul
+{
+    line-height: 60px;
+
+    position: relative;
+    right: 60px;
+
+    float: right;
+}
+
+.header .introduce ul li
+{
+    float: left;
+
+    padding: 0 10px;
+
+    list-style-type: none;
+}
+
+.header .introduce ul li a
+{
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.header .introduce ul li:hover
+{
+    background-color: black;
+}
+
+/*banner区样式*/
+.content .banner
+{
+    position: relative;
+    top: 60px;
+
+    width: 100%;
+    height: 400px;
+}
+
+.content .banner .img-banner
+{
+    position: absolute;
+    z-index: 10;
+
+    width: 100%;
+}
+
+.content .banner .img-banner img
+{
+    width: 100%;
+    height: 400px;
+}
+
+.content .banner .text-banner
+{
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+.content .banner .mask
+{
+    position: absolute;
+    z-index: 20;
+
+    width: 100%;
+    height: 400px;
+
+    opacity: .4;
+    background-color: #000;
+}
+
+.content .banner .text-banner
+{
+    position: absolute;
+    z-index: 40;
+
+    width: 100%;
+    height: 400px;
+}
+
+.content .banner .text-banner ul
+{
+    width: 50%;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.content .banner .text-banner ul li
+{
+    width: 300px;
+    margin: 0 auto 15px auto;
+
+    list-style-type: none;
+
+    text-align: center;
+}
+
+.content .banner .text-banner ul li input
+{
+    width: 300px;
+    height: 25px;
+
+    color: white;
+    background-color: transparent;
+}
+
+.content .banner .text-banner ul li .send
+{
+    width: 120px;
+    height: 50px;
+
+    color: white;
+}
+
+.content .banner .text-banner ul textarea
+{
+    width: 300px;
+    height: 80px;
+
+    color: white;
+    border-width: 2px;
+    background-color: transparent;
+}
+
+.content .banner .text-banner ul input:hover
+{
+    border: 2px solid #07cbc9;
+}
+.content .banner .text-banner ul textarea:hover
+{
+    border: 2px solid #07cbc9;
+}
+.content .banner .text-banner ul .send:hover
+{
+    border: none;
+    background-color: #07cbc9;
+}
+
+/*about区样式*/
+.content .about
+{
+    position: relative;
+
+    width: 100%;
+    height: 1100px;
+    margin-top: 100px;
+
+    text-align: center;
+}
+
+.content .about .about-top h2
+{
+    font-size: 25px;
+    font-weight: bold;
+
+    margin: 0 auto;
+}
+
+.content .about .about-top p
+{
+    font-size: 12px;
+
+    width: 350px;
+    margin: 20px auto;
+
+    color: #979797;
+}
+
+.content .about .about-top .line
+{
+    width: 30px;
+    margin: 15px auto auto auto;
+
+    border-bottom: 1px solid #07cbc9;
+}
+
+.content .about .about-middle
+{
+    width: 850px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.content .about .about-middle .middle-one
+{
+    float: left;
+
+    width: 200px;
+    margin-left: 20px;
+
+    text-align: left;
+}
+
+.content .about .about-middle .middle-one .and
+{
+    position: absolute;
+
+    box-sizing: border-box;
+    width: 280px;
+    padding: 10px;
+    opacity: 0.7;
+
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.content .about .about-middle .middle-one h3
+{
+    font-size: 25px;
+    font-weight: bold;
+
+    position: relative;
+    left: 10px;
+}
+
+.content .about .about-middle .middle-one .and input
+{
+    margin: 10px 0;
+    height: 35px;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.content .about .about-middle .middle-one .and input:hover
+{
+    color: black;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.content .about .about-middle .middle-two
+{
+    float: left;
+
+    width: 400px;
+    margin-left: 20px;
+}
+
+.content .about .about-middle .middle-two img
+{
+    width: 100%;
+}
+.content .about .about-middle .middle-three
+{
+    float: left;
+
+    width: 150px;
+    margin-left: 20px;
+}
+
+.content .about .about-middle .middle-three .middle-last li
+{
+    line-height: 30px;
+
+    width: 100px;
+    margin: 0 auto 30px 20px;
+    padding: 10px 20px;
+
+    list-style-type: none;
+
+    border: 1px solid #07cbc9;
+}
+
+.content .about .about-middle .middle-three .middle-last .middle-line
+{
+    width: 30px;
+    margin: 0 auto;
+
+    border-bottom: 1px solid #07cbc9;
+}
+
+.content .about .about-middle .middle-three .middle-last li p
+{
+    font-weight: bold;
+}
+
+.content .about .about-bottom ul
+{
+    width: 100%;
+    margin: 20px 0;
+
+    text-align: left;
+
+    color: white;
+}
+.content .about .about-bottom ul li
+{
+    float: left;
+
+    width: 25%;
+    height: 300px;
+    margin: 0;
+
+    list-style-type: none;
+
+    background-color: #07cbc9;
+}
+.content .about .about-bottom ul li img
+{
+    width: 100%;
+    height: 300px;
+}
+.content .about .about-bottom ul li h3
+{
+    font-size: 25px;
+
+    margin: 10px;
+}
+.content .about .about-bottom ul li h4
+{
+    font-size: 18px;
+
+    margin: 10px;
+}
+.content .about .about-bottom ul li p
+{
+    font-size: 12px;
+
+    margin: 10px;
+}
+.content .about .about-bottom ul li input
+{
+    width: 80px;
+    height: 35px;
+    margin: 20px 110px 20px 110px;
+
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+}
+.content .about .about-bottom ul li input:hover
+{
+    color: black;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+/*gallery区*/
+.content .gallery
+{
+    height: 600px;
+    width: 100%;
+}
+
+.content .gallery .galley-top
+{
+    text-align: center;
+
+}
+
+.content .gallery .galley-top h3
+{
+    font-size: 25px;
+}
+
+.content .gallery .galley-top .line
+{
+    width: 30px;
+    margin: 15px auto auto auto;
+
+    border-bottom: 1px solid #07cbc9;
+}
+
+.content .gallery .galley-top p
+{
+    font-size: 12px;
+
+    width: 350px;
+    margin: 20px auto;
+}
+
+.gallery .galley-bottom ul
+{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+.gallery .galley-bottom ul li
+{
+    float: left;
+
+    width: 300px;
+    margin: 0 20px 40px 0;
+
+    list-style-type: none;
+
+    background-color: black;
+}
+.gallery .galley-bottom ul li img
+{
+    width: 300px;
+}
+.gallery .galley-bottom ul li p
+{
+    font-size: 15px;
+    line-height: 25px;
+
+    margin-left: 20px;
+
+    color: white;
+}
+
+/*页脚区域*/
+.footer
+{
+    line-height: 80px;
+
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+
+    text-align: center;
+
+    color: white;
+    background-color: #07cbc9;
+}
